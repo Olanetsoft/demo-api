@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --config ./jest.config.js && codecov",
     "start": "node index.js",
     "dev": "nodemon index.js",
     "lintChanged": "eslint $(git diff --name-only --diff-filter=ACMRTUXB dev | grep  -E \"(.js$|.ts$|.tsx$)\")",
@@ -22,6 +23,7 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
+    "codecov": "^3.8.1",
     "dotenv": "^10.0.0",
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",

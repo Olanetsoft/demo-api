@@ -1,4 +1,3 @@
-const path = require("path");
 const fs = require("fs").promises;
 
 // Get all cities from the json file
