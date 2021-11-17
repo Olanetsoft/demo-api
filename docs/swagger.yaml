@@ -1,7 +1,7 @@
 openapi: "3.0.0"
 servers:
   - description: Demo API
-    url: https://demo-api.herokuapp.com/api/
+    url: https://demo-api-endpoint.herokuapp.com/api/
 info:
   description: This API represents the core Demo API. See info on verbs here https://restfulapi.net/http-methods/
 
@@ -11,7 +11,7 @@ info:
     email: heedris2olubisi@gmail.com
   license:
     name: Proprietary
-    url: "https://demo-api.herokuapp.com/api/"
+    url: "https://demo-api-endpoint.herokuapp.com/api/"
 
 ##################################################
 ##### Tags in the system
@@ -20,7 +20,7 @@ tags:
   - name: City
     description: Endpoint for managing cities in the system
     externalDocs:
-      url: https://demo-api.herokuapp.com/api/
+      url: https://demo-api-endpoint.herokuapp.com/api/
 
 paths:
   #####################################
@@ -67,5 +67,5 @@ components:
             type: string
 
 externalDocs:
-  url: https://demo-api.herokuapp.com/api/
+  url: https://demo-api-endpoint.herokuapp.com/api/
   description: Official Documentation
