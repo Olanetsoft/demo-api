@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json({ limit: "20mb" }));
 
 // Redirect to docs on get request to root
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   res.redirect("/docs/v1");
 });
 
